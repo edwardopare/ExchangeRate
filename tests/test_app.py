@@ -33,6 +33,7 @@ def test_real_api_multiple_currencies():
         assert isinstance(rate, (int, float))
         assert rate > 0
         print(f"{from_curr} to {to_curr}: {rate}")
+        
 
 if __name__ == "__main__":
     test_real_api_exchange_rate()
